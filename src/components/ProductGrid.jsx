@@ -13,7 +13,7 @@ const ProductCard = ({ name, image }) => (
       <img
         src={image}
         alt={name}
-        className="w-full h-60 object-cover rounded-lg"
+        className="w-full h-60 object-contain rounded-lg"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-10 rounded-lg"></div>
     </div>
