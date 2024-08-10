@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import ProductGrid from "./components/ProductGrid";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
+import AnimatedBanner from "./components/Framer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <AnimatedBanner/>
         <ProductGrid />
         <Testimonials />
       </main>
